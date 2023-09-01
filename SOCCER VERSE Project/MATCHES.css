@@ -1,0 +1,43 @@
+/* body{
+    margin: 20px;
+} */
+#matches{
+    background-color: rgb(230, 230, 230);
+    margin-bottom: 20px;
+    border: 1px silver solid;
+    height: 150px;
+    width: 260px;
+    border-radius: 3%;
+    color: black;
+    font-size: small;
+    box-shadow:3px 2px 3px silver;
+}
+#matches:hover{
+    background-color: rgb(219, 218, 218);
+    box-shadow: 2px 3px 3px gray;
+}
+#belgium{
+    float: right;
+    margin: 10px;
+}
+#argentina{
+    float: left;
+    margin: 10px;
+}
+.mtext{
+   text-align: center;
+   
+}
+.htext{
+    text-align: center;
+}
+.card-m{
+    width: 100%;
+}
+.container3{
+    margin: 50px;
+    padding: 20px;
+}
+/* .col-lg-3{
+    margin: auto;
+} */

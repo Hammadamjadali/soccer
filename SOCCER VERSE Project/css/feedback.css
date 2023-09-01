@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    min-height: 100vh;
+  }
+  body{
+    background-color:rgb(217, 215, 215) !important;
+  }
+  .feedback-form {
+    background-color: #ebe1e1;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: auto;
+    
+  }
+
+  .feedback-form label {
+    font-weight: bold;
+  }
+
+  .feedback-form input[type="text"],
+  .feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .feedback-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  body{
+    margin: auto;
+    padding: 0;
+}
+.nav-link{
+    color: whitesmoke !important;
+}
+.logo{
+    background-color: black;
+}
+.navbar{
+    border-top:1px gray solid;
+}
+.nav-link:hover{
+    color: #72120c !important;
+    text-shadow:1px 1px 2px gray;
+ 
+}
+.dropdown-item:hover{
+    color: #72120c !important;
+    text-shadow:1px 1px 2px red;
+    
+}
+.dropdown-item{
+    color: aliceblue !important;
+}
+.hidden {
+  display: none;
+}
+
+#successMessage {
+  color: #28a745;
+  margin-top: 10px;
+}
